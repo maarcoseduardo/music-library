@@ -6,7 +6,7 @@ export const Aside = styled.aside`
     justify-content: space-between;
     max-width: 300px;
     width: 100%;
-    max-height: 740px;
+    height: 100vh;
     background: var(--black-900);
     color: var(--white-300);
 `; 
@@ -43,6 +43,7 @@ export const Section = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 70vh;
 `;
 
 export const Unlist = styled.ul`

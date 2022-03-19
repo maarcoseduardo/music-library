@@ -26,7 +26,6 @@ export const SectionPlaylist = styled.section`
   height: 300px;
   width: 1000px;
   overflow-x: scroll;
-  // @media // webkit
 `;
 
 export const PLaylistContainer = styled.div`
@@ -57,6 +56,7 @@ export const Paragraph = styled.p`
 
 export const SectionViewsTracks = styled.section`
   display: flex;
+  max-width: 1000px;
   gap: 50px;
 `;
 

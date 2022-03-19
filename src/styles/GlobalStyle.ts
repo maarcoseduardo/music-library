@@ -4,7 +4,8 @@ export default createGlobalStyle`
 
 :root{
     --white-300: #e5e5e5e7;
-    --blue-600: rgb(32, 15, 86);
+    --blue-400: rgb(32, 15, 86);;
+    --blue-600: #13132b;
     --black-900: #040517;
 }
 
@@ -14,6 +15,17 @@ export default createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
+    ::-webkit-scrollbar{
+        height:0.7rem;
+        background:var(--blue-400);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: orange;
+        border-radius: 20px;
+    }
 }
 
 body, input, textarea, button {
