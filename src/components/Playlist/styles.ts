@@ -27,6 +27,12 @@ export const Input = styled.input`
 
 export const SectionPlaylist = styled.section`
   height: 300px;
+
+  @media (min-width:1081px){
+    overflow-x:scroll;
+    max-width: 1180px;
+    width: 100%;
+  }
   @media (max-width: 1080px) {
     overflow-x: scroll;
     max-width: 800px;
@@ -82,11 +88,16 @@ export const DivView = styled.div`
     max-width: 350px;
     transition: 0.2s;
   }
+  @media (max-width: 720px) {
+    max-width: 100%;
+    transition: 0.2s;
+  }
 `;
 
 export const DivTracks = styled.div``;
 
-export const UnlistView = styled.ul``;
+export const UnlistView = styled.ul`
+`;
 
 export const List = styled.li``;
 
@@ -99,7 +110,7 @@ export const DivProfile = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 450px;
+  max-width: 450px;
   margin-bottom: 1rem;
 
   @media (max-width: 1080px) {
@@ -111,6 +122,11 @@ export const DivContainerProfileDescription = styled.div`
   display: flex;
   width: 180px;
   justify-content: space-between;
+  @media (max-width: 720px) {
+    max-width: 300px;
+    width:100%;
+    transition: 0.2s;
+  }
 `;
 export const DivProfileDescription = styled.div`
   display: flex;
@@ -138,13 +154,20 @@ export const ParagraphAlbum = styled.p`
 export const UnlistTracks = styled.ul`
   display: flex;
   gap: 20px;
-  @media (max-width: 1080px) {
-    overflow-x: scroll;
-    transition: 0.2s;
-    max-width: 500px;
+
+  @media (min-width:1081px){
+    overflow-x:scroll;
+    max-width: 800px;
+    width: 100%;
   }
 
   @media (max-width: 1080px) {
+    overflow-x: scroll;
+    transition: 0.2s;
+    max-width: 430px;
+  }
+
+  @media (max-width: 720px) {
     max-width: 800px;
   }
 `;

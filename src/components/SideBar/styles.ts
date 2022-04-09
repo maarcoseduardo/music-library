@@ -9,9 +9,9 @@ export const Aside = styled.aside`
   background: var(--black-900);
   color: var(--white-300);
 
-  @media (max-width: 720px){
+  @media (max-width: 720px) {
     max-width: 100%;
-    height: 700px ;
+    height: 700px;
   }
 `;
 
@@ -27,9 +27,9 @@ export const DivProfile = styled.div`
     transition: 0.3s;
   }
 
-  @media (max-width: 720px){
+  @media (max-width: 720px) {
     max-width: 100%;
-    margin:6rem auto;
+    margin: 6rem auto;
   }
 `;
 
@@ -37,7 +37,7 @@ export const ImageProfile = styled.img`
   width: 110px;
   height: 110px;
   border-radius: 10px;
-  
+
   @media (max-width: 1080px) {
     margin-bottom: 1rem;
   }
@@ -53,8 +53,6 @@ export const DivDescription = styled.div`
 
 export const H1 = styled.h1``;
 
-export const Paragraph = styled.p``;
-
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
@@ -64,7 +62,6 @@ export const Section = styled.section`
   @media (max-width: 1080px) {
     transition: 0.2s;
   }
-
 `;
 
 export const Unlist = styled.ul`
@@ -72,7 +69,7 @@ export const Unlist = styled.ul`
   width: 130px;
   border-top: 1px solid var(--white-300); //Adicionar linha como content
 
-  @media (max-width: 720px){
+  @media (max-width: 720px) {
     height: 150px;
   }
 `;
@@ -83,9 +80,34 @@ export const List = styled.li`
 
 export const Anchor = styled.a`
   color: var(--white-300);
-
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
+  
   &:hover {
     transition: 0.2s;
     filter: brightness(60%);
   }
 `;
+
+export const AnchorEdit = styled.a`
+  color: var(--white-300);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+
+  @media (max-width: 1080px) {
+    justify-content: center;
+  }
+  @media (max-width: 720px) {
+    justify-content: center;
+  }
+  
+  &:hover {
+    transition: 0.2s;
+    filter: brightness(60%);
+  }
+`;
+export const SpanIcon = styled.span``;
