@@ -1,34 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+ Music Library
+</h1>
 
-## Getting Started - PROJETO EM CONSTRUÇÃO
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-seção">Seção</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desenvolvedor">Desenvolvedor</a>
+</p>
 
-First, run the development server:
+  <p align="center">
+    <img align="center" alt="icone NextJS" title="NextJS"  width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" >
+  </div>
+  <img align="center" alt="ReactJS"  width="29" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="icone Typescript" title="Typescript" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  
+  <img align="center" alt="Styled Components" src="https://camo.githubusercontent.com/bf5730813c588c41aee84395dcc406f5b5de39c06a2e5362cefe38fcbde9f1d9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374796c6564436f6d706f6e656e74732d3432343234323f7374796c653d666f722d7468652d6261646765266c6f676f3d7374796c6564636f6d706f6e656e7473266c6f676f436f6c6f723d70696e6b">
 
-```bash
-npm run dev
-# or
+</p>
+
+---
+
+## 💻 Projeto
+
+**Music Library é um projeto responsivo com fins de estudo. No qual foi desenvolvido utilizando NextJs(apenas com estrutura e sem consumo de api) e Typescript .
+.**
+
+---
+
+## 📌 Seção
+Site composto por 1 seção:
+
+- **Home:** Página incial do projeto;
+
+---
+
+## 🚀 Tecnologias utilizadas
+Esse projeto foi desenvolvido com a seguinte tecnologia e suas dependencias:
+
+- NextJS
+    - ReactJS
+    - styled-components
+    - axios
+    - react
+    - react-icons
+- API
+    - Neste projeto não foi utilizado nenhuma API.
+    
+---
+
+## ▶️ Executando o projeto
+
+#### Clone o repositório usando o seguinte comando ou baixe
+
+```
+git clone https://github.com/maarcoseduardo/music-library.git
+```
+
+#### Para instalar as dependências
+
+```
+yarn install
+```
+
+#### Para iniciar o servidor
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Para construção de produção
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+O servidor estará disponível no http://127.0.0.1:3000 em seu navegador
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 💘 Desenvolvedor<br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/maarcoseduardo">
+        <img src="https://avatars.githubusercontent.com/u/59845705?v=4" width="100" alt="Foto no GitHub"/><br>
+        <sub>
+          <b>Marcos Eduardo</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
