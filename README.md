@@ -24,7 +24,7 @@
 
 ## 💻 Projeto
 
-**Music Library é um projeto responsivo com fins de estudo. No qual foi desenvolvido utilizando NextJs(apenas com estrutura e sem consumo de api) e Typescript .
+**Music Library é um projeto responsivo com fins de estudo. No qual foi desenvolvido utilizando NextJs(apenas com estrutura, sem consumo de api) e Typescript .
 .**
 
 ---
