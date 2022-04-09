@@ -24,8 +24,11 @@ export const Input = styled.input`
 
 export const SectionPlaylist = styled.section`
   height: 300px;
-  width: 1000px;
-  overflow-x: scroll;
+
+  @media (max-width: 1080px) {
+    overflow: scroll;
+    max-width: 800px;
+  }
 `;
 
 export const PLaylistContainer = styled.div`
@@ -58,11 +61,18 @@ export const SectionViewsTracks = styled.section`
   display: flex;
   max-width: 1000px;
   gap: 50px;
+  @media (max-width: 1080px) {
+    gap: 20px;
+  }
 `;
 
 export const DivView = styled.div`
   max-width: 450px;
   width: 100%;
+
+  @media (max-width: 1080px) {
+    max-width: 350px;
+  }
 `;
 
 export const DivTracks = styled.div``;
@@ -80,8 +90,12 @@ export const DivProfile = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 350px;
+  width: 450px;
   margin-bottom: 1rem;
+
+  @media (max-width: 1080px) {
+    width: 100%;
+  }
 `;
 export const DivContainerProfileDescription = styled.div`
   display: flex;
@@ -113,9 +127,11 @@ export const ParagraphAlbum = styled.p`
 
 export const UnlistTracks = styled.ul`
   display: flex;
-  width: 600px;
   gap: 20px;
-  overflow-x: scroll;
+  @media (max-width: 1080px) {
+    overflow: scroll;
+    max-width: 350px;
+  }
 `;
 
 export const ListTracks = styled.li``;
