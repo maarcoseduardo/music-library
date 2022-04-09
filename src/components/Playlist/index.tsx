@@ -1,4 +1,3 @@
-
 import { FiSearch } from "react-icons/fi";
 import {
   SectionContainer,
@@ -29,25 +28,27 @@ import {
   DivTracks,
   TitleTracksAuthors,
   TitleTracks,
-  DivTracksDescription
+  DivTracksDescription,
 } from "./styles";
 
-import { playlists } from '../../services/playlistsAlbums';
+import { playlists } from "../../services/playlistsAlbums";
 import { profileView } from "../../services/profileView";
-import { playlistTracks } from '../../services/playlistTracks';
+import { playlistTracks } from "../../services/playlistTracks";
 
 export function Playlist() {
   return (
     <SectionContainer>
       <Content>
         <Div>
-          <FiSearch color="white" />
+          <span>
+            <FiSearch color="white" />
+          </span>
           <Input placeholder="Search artists, playlists or tracks" />
         </Div>
         <Title>Featured Playlists</Title>
         <SectionPlaylist>
           <PLaylistContainer>
-            {playlists.map(playlists => (
+            {playlists.map((playlists) => (
               <DivContainerAlbum key={playlists.id}>
                 <ImageAlbum src={playlists.image} />
                 <TitlePlaylist>{playlists.name}</TitlePlaylist>
@@ -60,7 +61,7 @@ export function Playlist() {
           <DivView>
             <Title>Profile Views</Title>
             <UnlistView>
-              {profileView.map(profileView => (
+              {profileView.map((profileView) => (
                 <List key={profileView.id}>
                   <DivProfile>
                     <DivContainerProfileDescription>
@@ -79,7 +80,7 @@ export function Playlist() {
           <DivTracks>
             <Title>Tracks</Title>
             <UnlistTracks>
-              {playlistTracks.map(tracks => (
+              {playlistTracks.map((tracks) => (
                 <ListTracks key={tracks.id}>
                   <ImageTracks src={tracks.image} />
                   <DivTracksDescription>

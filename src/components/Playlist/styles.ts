@@ -9,7 +9,10 @@ export const Content = styled.div`
   padding: 1rem 2rem;
 `;
 
-export const Div = styled.div``;
+export const Div = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
 export const Input = styled.input`
   background: var(--blue-600);
@@ -24,10 +27,10 @@ export const Input = styled.input`
 
 export const SectionPlaylist = styled.section`
   height: 300px;
-
   @media (max-width: 1080px) {
-    overflow: scroll;
+    overflow-x: scroll;
     max-width: 800px;
+    transition: 0.2s;
   }
 `;
 
@@ -59,19 +62,25 @@ export const Paragraph = styled.p`
 
 export const SectionViewsTracks = styled.section`
   display: flex;
-  max-width: 1000px;
+  width: 100%;
   gap: 50px;
   @media (max-width: 1080px) {
     gap: 20px;
+    transition: 0.2s;
+  }
+
+  @media (max-width: 720px) {
+    display: block;
   }
 `;
 
 export const DivView = styled.div`
-  max-width: 450px;
+  max-width: 330px;
   width: 100%;
 
   @media (max-width: 1080px) {
     max-width: 350px;
+    transition: 0.2s;
   }
 `;
 
@@ -95,6 +104,7 @@ export const DivProfile = styled.div`
 
   @media (max-width: 1080px) {
     width: 100%;
+    transition: 0.2s;
   }
 `;
 export const DivContainerProfileDescription = styled.div`
@@ -129,8 +139,13 @@ export const UnlistTracks = styled.ul`
   display: flex;
   gap: 20px;
   @media (max-width: 1080px) {
-    overflow: scroll;
-    max-width: 350px;
+    overflow-x: scroll;
+    transition: 0.2s;
+    max-width: 500px;
+  }
+
+  @media (max-width: 1080px) {
+    max-width: 800px;
   }
 `;
 
