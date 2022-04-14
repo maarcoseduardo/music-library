@@ -12,6 +12,7 @@ export const Aside = styled.aside`
   @media (max-width: 720px) {
     max-width: 100%;
     height: 700px;
+    transition: 0.3s;
   }
 `;
 
@@ -30,6 +31,7 @@ export const DivProfile = styled.div`
   @media (max-width: 720px) {
     max-width: 100%;
     margin: 6rem auto;
+    transition: 0.3s;
   }
 `;
 
@@ -60,7 +62,7 @@ export const Section = styled.section`
   height: 70vh;
 
   @media (max-width: 1080px) {
-    transition: 0.2s;
+    transition: 0.3s;
   }
 `;
 
@@ -71,6 +73,7 @@ export const Unlist = styled.ul`
 
   @media (max-width: 720px) {
     height: 150px;
+    transition: 0.3s;
   }
 `;
 
@@ -86,7 +89,7 @@ export const Anchor = styled.a`
   margin: 0 auto;
   
   &:hover {
-    transition: 0.2s;
+    transition: 0.3s;
     filter: brightness(60%);
   }
 `;
