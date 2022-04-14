@@ -30,7 +30,7 @@ export const SectionPlaylist = styled.section`
 
   @media (max-width:1735px){
     overflow-x:scroll;
-    width: 70vw;
+    width: 69vw;
     transition: 0.3s;
   }
   @media (max-width: 720px) {
