@@ -20,6 +20,13 @@
 
 </p>
 
+## Desktop
+
+![Desktop-design](https://github.com/maarcoseduardo/music-library/blob/master/demo/Full.png)
+
+## Mobile
+
+![Responsive-design](https://github.com/maarcoseduardo/music-library/blob/master/demo/Responsive.png)
 ---
 
 ## 💻 Projeto
